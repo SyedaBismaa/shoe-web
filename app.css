@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+  height: 9%;
+  width: 9%;
+  margin: 1vw 5vw;
+  border-radius: 50%; 
+}
+ul{ 
+     display: flex;
+     justify-content: center;
+}
+li{
+    list-style: none;
+    margin: 1.3vw 2.7vw;
+    font-size: 21px;
+    font-weight: 500;
+}
+li:hover{
+    border-bottom: 1px solid black;
+    font-style: italic;
+}
+
+/*------------- Header/navbar done --------------- */
+
+.Search{
+    display: flex;
+    justify-content: center;
+    gap:0.3%;
+    color: #000;
+    margin-bottom: 3vw;
+}
+.Search input{
+    width: 30%;
+    padding: 0.5vw 0.5vw;
+    border-radius: 15px;
+    border: 2px solid black;
+    /* background: linear-gradient(rgb(81, 176, 205) , rgb(123, 123, 208)); */
+}
+.Search button {
+    padding: 0.2vw 0.2vw;
+    width: 5%;
+    border-radius: 15px;
+    border: 2px solid black ;
+}
+/* ---------Search setion done ---------- */
+
+.Shoe-card{
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+  
+    margin: 2vw 4vw;
+    border-radius: 15px;
+
+}
+
+
+.Shoe-card img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    padding: 1vw;
+}
+
+.Shoe-card button{
+    width: 50%;
+    margin:0vw  5vw;
+    margin-bottom: 30vw;
+    padding: 0.3vw 3vw;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color:black;
+    color:white;
+}
+
+.shoe-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 1vw;
+}
+.shoe-D{
+    display: flex;
+    flex-wrap: wrap;
+}
