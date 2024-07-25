@@ -1,30 +1,52 @@
+
+
 import Cards from "./Cards";
-import shoeD from "./utils/shoeD";
-
-const Body = () =>{
-    return(
-   <>
-      
-    
-     <div className="Search">
-        <input  placeholder="Search.." type="text"/>
-        <button>Search</button>
-
-     </div>
+import { shoeD } from "./utils/shoeD";
+import { useState } from "react";
+import TopRatedShoe from "./TopRatedShoe";
 
 
-   <div className="shoe-D">
-    {
-                shoeD.map(shoeD => <Cards details={shoeD}/>)
-    }
+const Body = () => {
+  const [searchText, setSearchText] = useState("");
+  const [filteredShoeD, setFilteredShoeD] = useState(shoeD);
 
-   </div>
+  function filterShoeD() {
+    const filteredData = shoeD.filter((shoe) =>
+      shoe.name.toLowerCase().includes(searchText.toLowerCase())
+    );
+    setFilteredShoeD(filteredData);
+  }
+
+ function filterTopRatedShoe(shoeD){
+  setFilteredShoeD(shoeD)
+ }
 
 
-   
-   </>
-    )
+  return (
+    <>
+      <div className="Search">
+        <input
+          placeholder="Search.."
+          type="text"
+          onChange={(e) => setSearchText(e.target.value)}
+        />
+        <button onClick={filterShoeD}>Search</button>
+        <TopRatedShoe 
+        TopRatedShoe={filterTopRatedShoe}
+        filteredShoeD= {filteredShoeD}
+        />
+
+      </div>
+
+      <div className="shoe-D">
+        {filteredShoeD.map((shoe) => (
+          <Cards key={shoe.id} details={shoe} />
+        ))}
+      </div>
+    </>
+  );
 };
+
 
 
 

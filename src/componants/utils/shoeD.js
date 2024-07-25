@@ -1,4 +1,4 @@
-const shoeD  = [
+ export const shoeD  = [
     {
       name: "Air Max 270",
       price: 150,
@@ -9,7 +9,7 @@ const shoeD  = [
     {
       name: "Adidas Ultraboost",
       price: 180,
-      rating: 4.7,
+      rating: 3.7,
       type: "Running Shoes",
       imageUrl: "https://images.faverie.com/cb:Twin~42e91/w:auto/h:auto/q:mauto/f:best/id:a18ea74fefe11fe8c1420704888db29b/https://www.faverie.com/detail-feet-basketball-shoes-jordan.jpg"
     },
@@ -44,14 +44,14 @@ const shoeD  = [
     {
       name: "Puma Suede Classic",
       price: 65,
-      rating: 4.2,
+      rating: 1.2,
       type: "Casual Shoes",
       imageUrl: "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/23869884/2023/7/4/fe5ea502-9039-4a4e-9921-30e0c7b723a11688466977004RedTapeMenWhiteColourblockedPUSneakers1.jpg"
     },
     {
       name: "Asics Gel-Kayano 27",
       price: 160,
-      rating: 4.6,
+      rating: 2.6,
       type: "Running Shoes",
       imageUrl: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQwXLiWtdLzG4z2L3eE4cv-3PLjZ49Cx_shFcDvzcs5uS71SWJkwAfLhk96HXgB50LqeKQ8XJ6Igg_hF6l4UjJjnwXQE9L6aSlNof8hvAAr&usqp=CAE"
     },
@@ -79,10 +79,10 @@ const shoeD  = [
     {
       name: "skate 1 Retro High",
       price: 170,
-      rating: 4.8,
+      rating: 3.8,
       type: "Basketball Shoes",
       imageUrl: "https://img.tatacliq.com/images/i16//437Wx649H/MP000000021363637_437Wx649H_202402282044341.jpeg"
     },
   ];
   
-  export default shoeD ;
+  // export default shoeD ;
