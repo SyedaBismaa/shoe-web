@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const useOnline = () =>{
+ const UseOnline = () =>{
     const [ isOnline , setIsOnline] = useState(true);
 
     window.addEventListener("online", ()=>{
@@ -14,4 +14,4 @@ export const useOnline = () =>{
     return isOnline ;
 }
 
-export default useOnline;
+export default UseOnline;

@@ -1,5 +1,4 @@
-
-import { shoeD } from "./utils/shoeD";
+import { shoeD } from "../../utils/shoeD";
 
 const TopRatedShoe = (props)=>{
 
@@ -13,7 +12,7 @@ function getTopRatedShoe (){
 }
 
   return(
-    <button  onClick={getTopRatedShoe}>TopRatedShoe</button>
+    <button className="btn2" onClick={getTopRatedShoe}>TopRatedShoe</button>
   )
 }
 

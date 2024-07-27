@@ -52,9 +52,15 @@ li:hover{
     border: 2px solid black;
     /* background: linear-gradient(rgb(81, 176, 205) , rgb(123, 123, 208)); */
 }
-.Search button {
+.btn1 {
     padding: 0.2vw 0.2vw;
     width: 5%;
+    border-radius: 15px;
+    border: 2px solid black ;
+}
+.btn2{
+    padding: 0.2vw 0.10vw;
+     width:10%;
     border-radius: 15px;
     border: 2px solid black ;
 }

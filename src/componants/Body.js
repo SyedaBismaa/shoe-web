@@ -1,7 +1,7 @@
 
 
 import Cards from "./Cards";
-import { shoeD } from "./utils/shoeD";
+import { shoeD } from "../../utils/shoeD";
 import { useState } from "react";
 import TopRatedShoe from "./TopRatedShoe";
 
@@ -30,7 +30,7 @@ const Body = () => {
           type="text"
           onChange={(e) => setSearchText(e.target.value)}
         />
-        <button onClick={filterShoeD}>Search</button>
+        <button className="btn1" onClick={filterShoeD}>Search</button>
         <TopRatedShoe 
         TopRatedShoe={filterTopRatedShoe}
         filteredShoeD= {filteredShoeD}

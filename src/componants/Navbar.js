@@ -1,9 +1,9 @@
 
 import React from "react";
-import { useOnline } from "./utils/UseOnline";
+import UseOnline from "../../utils/UseOnline";
 
-const Header = () => {
-  const OnlineStatus = useOnline();
+ export const Navbar = () => {
+  const OnlineStatus = UseOnline();
 
   return (
     <div>
@@ -21,4 +21,3 @@ const Header = () => {
   );
 };
 
-export default Header;
