@@ -1,6 +1,7 @@
  export const shoeD  = [
     {
       name: "Air Max 270",
+      id: 1,
       price: 150,
       rating: 4.5,
       type: "Sneakers",
@@ -8,6 +9,7 @@
     },
     {
       name: "Adidas Ultraboost",
+      id: 278,
       price: 180,
       rating: 3.7,
       type: "Running Shoes",
@@ -15,6 +17,7 @@
     },
     {
       name: "Converse Chuck Taylor",
+      id: 902,
       price: 55,
       rating: 4.3,
       type: "Casual Shoes",
@@ -22,6 +25,7 @@
     },
     {
       name: "Nike Air Force 1",
+      id: 290,
       price: 90,
       rating: 4.6,
       type: "Sneakers",
@@ -29,6 +33,7 @@
     },
     {
       name: "New Balance 990v5",
+      id: 212,
       price: 175,
       rating: 4.5,
       type: "Running Shoes",
@@ -36,6 +41,7 @@
     },
     {
       name: "Vans Old Skool",
+      id: 244,
       price: 60,
       rating: 4.4,
       type: "Skate Shoes",
@@ -43,6 +49,7 @@
     },
     {
       name: "Puma Suede Classic",
+      id: 287,
       price: 65,
       rating: 1.2,
       type: "Casual Shoes",
@@ -50,6 +57,7 @@
     },
     {
       name: "Asics Gel-Kayano 27",
+      id:666,
       price: 160,
       rating: 2.6,
       type: "Running Shoes",
@@ -57,6 +65,7 @@
     },
     {
       name: "Reebok Classic Leather",
+      id:656,
       price: 75,
       rating: 4.3,
       type: "Sneakers",
@@ -64,6 +73,7 @@
     },
     {
       name: "Jordan 1 Retro High",
+      id:653,
       price: 1700,
       rating: 4.8,
       type: "Basketball Shoes",
@@ -71,6 +81,7 @@
     },
     {
       name: "Jordan  High",
+      id:632,
       price: 190,
       rating: 4.8,
       type: "Basketball Shoes",
@@ -78,6 +89,7 @@
     },
     {
       name: "skate 1 Retro High",
+      id:6,
       price: 170,
       rating: 3.8,
       type: "Basketball Shoes",

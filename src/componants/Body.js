@@ -4,6 +4,7 @@ import Cards from "./Cards";
 import { shoeD } from "../../utils/shoeD";
 import { useState } from "react";
 import TopRatedShoe from "./TopRatedShoe";
+import { Link } from "react-router-dom";
 
 
 const Body = () => {
@@ -38,16 +39,19 @@ const Body = () => {
 
       </div>
 
-      <div className="shoe-D">
-        {filteredShoeD.map((shoe) => (
-          <Cards key={shoe.id} details={shoe} />
-        ))}
-      </div>
-    </>
-  );
+
+
+<div className="shoe-D">
+{filteredShoeD.map((shoe) => (
+  <Link key={shoe.id} to={`/Shoeinfo/${shoe.id}`}>
+    <Cards details={shoe} />
+  </Link>
+))}
+</div>
+</>
+);
 };
 
-
-
-
 export default Body;
+
+

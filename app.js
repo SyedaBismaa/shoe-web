@@ -9,6 +9,8 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Contact from "./utils/Contact";
 import Error from "./utils/Error";
 import About from "./utils/About";
+import Profile from "./utils/Profile";
+import Shoeinfo from "./utils/Shoeinfo";
 
 
 const root1 = ReactDOM.createRoot(document.getElementById("root"));
@@ -27,12 +29,22 @@ const appRouter = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+        children:[
+          {
+            path:"profile",
+            element: <Profile/>
+          },
+        ],
       
       },
       {
         path: "/contact",
         element: <Contact />,
       },
+      {
+        path:"/shoeinfo/:id",
+        element: <Shoeinfo/>
+      }
       
     ],
   },
