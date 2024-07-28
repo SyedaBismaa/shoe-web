@@ -8,7 +8,7 @@ import UseOnline from "../../utils/UseOnline";
 
   return (
     <div>
-      <div className="justify-between items-center flex">
+      <div className=" anim1 justify-between items-center flex">
         <img className="logo" src="https://static.vecteezy.com/system/resources/previews/005/020/444/original/modern-sneaker-shoe-logo-vector.jpg" alt="Logo" />
         <ul>
           <li>OnlineStatus {OnlineStatus ? "🟢" : "🔴"}</li>

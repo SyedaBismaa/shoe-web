@@ -37,6 +37,17 @@ li:hover{
     border-bottom: 1px solid black;
     font-style: italic;
 }
+.anim1{
+    animation: anim1 2s 1 ease-out ;
+}
+@keyframes anim1{
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1;
+    }
+}
 
 /*------------- Header/navbar done --------------- */
 
