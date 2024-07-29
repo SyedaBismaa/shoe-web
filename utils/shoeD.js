@@ -27,7 +27,7 @@
       name: "Nike Air Force 1",
       id: 290,
       price: 90,
-      rating: 4.6,
+      rating: 3.6,
       type: "Sneakers",
       imageUrl: "https://media.asiaone.com/sites/default/files/styles/article_main_image/public/original_images/Apr2023/20230414__shoe_ig.jpg?itok=EjbluUg3"
     },

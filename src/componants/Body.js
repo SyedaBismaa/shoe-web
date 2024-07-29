@@ -25,7 +25,7 @@ const Body = () => {
 
   return (
     <>
-      <div className="Search">
+      <div className="Search ">
         <input
           placeholder="Search.."
           type="text"
