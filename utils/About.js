@@ -20,7 +20,7 @@ const About = ()=>{
             <div className="text-part">
             <h1>" Step up your Style with Our Trendy Shoes "</h1>
             <p>"find your perfect pair of shoes Today"</p>
-            <button>Shop Now</button>
+            <button><a href="/">Buy Now</a></button>
             </div>
             <div className="img-part"> 
                 <img src="https://i.pinimg.com/originals/34/75/87/347587d2fc2b178499c9c8eeeaf9c8a5.jpg"/>
@@ -56,7 +56,7 @@ const About = ()=>{
             <p > The Nike Shoe is Know for its sleek desingn. comfortable fit, and high-quality materials. One of the key features of a Nike shoe is its use of innovative technologies to enhance </p>
             <p className="py-10"> Nike is a popular brand of asthetic footwear that offers a range of shoes desinged for various sports and activities, as well as casual wear.</p>
 
-            <button>New Arrived</button>
+            <button><a href="/">New Arrived</a></button>
           </div>
          </div>
        
