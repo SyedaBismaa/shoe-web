@@ -38,7 +38,7 @@ const About = ()=>{
           </div>
 
           <div className="img3">
-            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/369770/03/sv01/fnd/KOR/fmt/png/Storm-Origin-Men's-Sneakers"/>
+            <img src="https://th.bing.com/th/id/OIP.XeJPXBi2TohGYCEneNxRUwHaHa?pid=ImgDet&w=474&h=474&rs=1"/>
           </div>
 
           <div className="img3">
@@ -59,8 +59,6 @@ const About = ()=>{
             <button><a href="/">New Arrived</a></button>
           </div>
          </div>
-       
-       
        
        
        <Outlet/>

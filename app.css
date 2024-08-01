@@ -147,7 +147,7 @@ li:hover{
 .image-part{
     height: 18vw;
     width: 100%;
-    background-color:black;
+    background: linear-gradient(#FAFAFA, #FAFAFA);
     display:flex;
     justify-content: space-around ;
     align-items:center;
@@ -157,6 +157,8 @@ li:hover{
     height: 15%;
     width: 15%;
     object-fit:cover;
+ 
+
  }
  .about-section2{
     height:40vw;
@@ -200,8 +202,6 @@ li:hover{
 
 
 
-
-
 .Contact {
     display: flex;
     justify-content: space-between;
@@ -209,7 +209,7 @@ li:hover{
     padding: 40px;
     background: linear-gradient(lightblue , white , lightblue) ;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 8px black;
     max-width: 1200px;
     margin: 20px auto;
     height: 40vw;

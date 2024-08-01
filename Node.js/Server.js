@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 mongoose.connect(
-    "mongodb+srv://Syedabisma1:syedabisma1_@cluster0.rpwql3d.mongodb.net/"
+    "mongodb+srv://SyedaBisma:syedabisma1@cluster0.zxurqym.mongodb.net/"
   
 );
 

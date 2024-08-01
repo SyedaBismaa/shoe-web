@@ -1,6 +1,6 @@
 const Cards = (props)=>{
 
-     const{name , type , rating , price , imageUrl} = props.details ;
+     const{name , type , rating , price , imageUrl , id} = props.details ;
 
     return(
      <div className="Shoe-card">
