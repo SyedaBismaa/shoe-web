@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
+const userlogin = require("./Routs/Users.routs")
 
 
 const app = express();
@@ -8,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 mongoose.connect(
-    "mongodb+srv://SyedaBisma:syedabisma1@cluster0.zxurqym.mongodb.net/"
+    "mongodb+srv://Syeda1:Bisma1@cluster0.ri4lcbf.mongodb.net/"
   
 );
 
@@ -37,3 +38,4 @@ app.get("/" , (req , res)=>{
 
 require("./Routs/Shoes.routs")(app);
 
+userlogin(app);
