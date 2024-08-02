@@ -1,3 +1,15 @@
+   //fetching api
+
+  // import { useParams } from "react-router-dom";
+  // import { useState } from "react";
+  // import Shoeinfo from "./Shoeinfo";
+
+  // write backend code apis details 
+ 
+ 
+ 
+ 
+ 
  export const shoeD  = [
     {
       name: "Air Max 270",
@@ -97,4 +109,8 @@
     },
   ];
   
-  // export default shoeD ;
+  export default shoeD ;
+
+
+
+

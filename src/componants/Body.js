@@ -2,9 +2,11 @@
 
 import Cards from "./Cards";
 import { shoeD } from "../../utils/shoeD";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import TopRatedShoe from "./TopRatedShoe";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+//import { response } from "express";
 
 
 const Body = () => {
@@ -21,6 +23,23 @@ const Body = () => {
  function filterTopRatedShoe(shoeD){
   setFilteredShoeD(shoeD)
  }
+
+//  using own api errr
+
+//  useEffect(()=>{
+//   fetchData();
+//  },[]);
+
+// async function fetchData(){
+//      const data = await fetch(
+//        "https://localhost:5000/api/shoes"
+//      );
+//      const response = await data.json();
+
+//      setFilteredShoeD(response);
+   
+     
+// };
 
 
   return (
@@ -43,8 +62,8 @@ const Body = () => {
 
 <div className="shoe-D">
 {filteredShoeD.map((shoe) => (
-  <Link key={shoe.id} to={`/Shoeinfo/${shoe.id}`}>
-    <Cards details={shoe} />
+  <Link key={shoe.id} to={`/Shoeinfo/${shoe._id}`}>
+    <Cards key={shoe._id} details={shoe} />
   </Link>
 ))}
 </div>
