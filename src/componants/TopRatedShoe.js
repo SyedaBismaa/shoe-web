@@ -12,7 +12,7 @@ function getTopRatedShoe (){
 }
 
   return(
-    <button className="btn2" onClick={getTopRatedShoe}>TopRatedShoe</button>
+    <button className="btn2 pl-[0.8vw] pr-[0.8vw] pt-[0.10vw] pb-[0.10vw] border-2 border-black rounded-[15px]" onClick={getTopRatedShoe}>TopRatedShoe</button>
   )
 }
 

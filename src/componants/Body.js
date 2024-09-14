@@ -24,33 +24,17 @@ const Body = () => {
   setFilteredShoeD(shoeD)
  }
 
-//  using own api errr
-
-//  useEffect(()=>{
-//   fetchData();
-//  },[]);
-
-// async function fetchData(){
-//      const data = await fetch(
-//        "https://localhost:5000/api/shoes"
-//      );
-//      const response = await data.json();
-
-//      setFilteredShoeD(response);
-   
-     
-// };
-
 
   return (
     <>
-      <div className="Search ">
+      <div className="Search flex justify-center gap-[0.5%] color-[#000] mb-[3vw]   ">
         <input
-          placeholder="Search.."
+         className=" border-[2px] pl-[0.5px] pr-[0.5%] pt-[0.4vw] pb-[0.4vw] border-black w-[30%] rounded-[15px] pl-[1%]"
+          placeholder=" Search.."
           type="text"
           onChange={(e) => setSearchText(e.target.value)}
         />
-        <button className="btn1" onClick={filterShoeD}>Search</button>
+        <button className="btn1  p-[0.4vw] w-[5%] border-[2px] border-black rounded-[15px]" onClick={filterShoeD}>   Search</button>
         <TopRatedShoe 
         TopRatedShoe={filterTopRatedShoe}
         filteredShoeD= {filteredShoeD}
@@ -60,7 +44,7 @@ const Body = () => {
 
 
 
-<div className="shoe-D">
+<div className="shoe-D  flex flex-wrap">
 {filteredShoeD.map((shoe) => (
   <Link key={shoe.id} to={`/Shoeinfo/${shoe._id}`}>
     <Cards key={shoe._id} details={shoe} />
