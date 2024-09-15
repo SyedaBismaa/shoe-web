@@ -1,8 +1,16 @@
 const Shoeinfo = () =>{
     return (
         <>
+     
 
-      <h1>Connection to backend is remaining</h1>
+      {/* ADD TO CART OR PRODUCT DETAILS HERE */}
+
+
+
+
+
+
+      <h1 style={{fontSize : '40px '}}>WORK IN PROGRESSS</h1>
         </>
     )
 };

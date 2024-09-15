@@ -2,7 +2,7 @@
 const Profile = () => {
     return(
         <>
-        <h1>profile hun bhaii</h1> 
+        <h1>profile --- Work in progress</h1> 
       
         </>
     )
