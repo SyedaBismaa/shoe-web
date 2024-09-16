@@ -3,7 +3,7 @@ const Cards = (props)=>{
      const{name , type , rating , price , imageUrl } = props.details ;
 
     return(
-     <div className="Shoe-card h-[500px] w-[350px] border-2 border-black rounded-[15px] ml-[5vw] mb-[5vw]">
+     <div className="Shoe-card h-[500px] w-[350px] border-2 border-black rounded-[15px] ml-[5vw] mb-[5vw] shadow-[2px_2px_2px_2px]">
         <img className =" h-[60%] w-[100%] object-cover p-[1vw] rounded-lg" src={`${imageUrl}`}/>
 
          <div className="shoe-details flex justify-between  m-[2vw] gap-5">

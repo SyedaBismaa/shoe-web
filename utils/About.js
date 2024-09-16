@@ -20,7 +20,7 @@ const About = ()=>{
             <div className="text-part h-[95%] w-[43%] p-[2%] " >
             <h1  style={{ fontSize: '40px' }} className=" pb-[2rem]  -tracking-tighter ">" Step up your Style with Our Trendy Shoes "</h1>
             <p className="mt-[5%]">"find your perfect pair of shoes Today"</p>
-            <button style={{
+            <button  style={{
               
              borderRadius : '15px', 
               padding: '0.3rem 2.3rem', 
@@ -29,7 +29,7 @@ const About = ()=>{
               textAlign: 'center' ,
               marginTop : '7.6rem',
               backgroundImage: 'linear-gradient(to top, #0089C0 , #0484C1 , #FFFFFF)',
-               color : 'back',
+               color : 'white',
         
             }} ><a  href="/">Buy Now</a></button>
             </div>
